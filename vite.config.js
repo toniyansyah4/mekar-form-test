@@ -10,9 +10,5 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    resolve: {
-        alias: {
-          'sweetalert2': path.resolve(__dirname, 'node_modules/sweetalert2/dist/sweetalert2.js'),
-        },
-    },
+    
 });
