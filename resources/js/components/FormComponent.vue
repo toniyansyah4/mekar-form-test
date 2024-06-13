@@ -58,6 +58,12 @@
             email: '',
             dob: '',
           };
+          this.errors = {
+            name: '',
+            identityNumber: '',
+            email: '',
+            dob: '',
+          };
           Swal.fire('Success', 'Form submitted successfully!', 'success');
     
         } catch (error) {
